@@ -1,7 +1,7 @@
 module.exports = {
     apps: [{
-      name: 'yourAppName',
-      script: 'bin/www/app.mjs', // the path of the script you want to execute,
+      name: 'Newsletterapp',
+      script: 'bin/www/app.js', // the path of the script you want to execute,
       // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
       instances: 1,
       autorestart: true,
